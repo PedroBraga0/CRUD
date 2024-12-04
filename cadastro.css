@@ -1,0 +1,131 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+/* Container do formulário */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Estilo do botão de envio */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Container da tabela */
+.record-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    border-collapse: separate; /* Espaçamento entre as células */
+    border-spacing: 10px 5px; /* Aumenta o espaçamento entre as células */
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word; /* Quebra de linha automática para texto longo */
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Estilo para os botões de ação (editar e excluir) */
+button {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    margin-right: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Botão de editar */
+button:nth-child(1) {
+    background-color: #ff9800;
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: #e68900;
+}
+
+/* Botão de excluir */
+button:nth-child(2) {
+    background-color: #f44336;
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background-color: #e53935;
+}
